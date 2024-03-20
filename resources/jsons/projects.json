@@ -1,0 +1,54 @@
+{
+	"projects":
+	[
+	
+		{
+			"date": 2023,
+			"type": "Projet scolaire",
+			"title": "Appli-CR",
+			"description": "Il s'agit d'une application bureautique destionné au laboratoire GSB permettant de gérer et de réaliser un suivi des médicaments des patients.",
+			"tags":
+			[
+				{ "name": "C#", "url": "https://learn.microsoft.com/en-us/dotnet/csharp/" },
+				{ "name": "WinForm", "url": "https://learn.microsoft.com/fr-fr/dotnet/desktop/winforms/overview/?view=netdesktop-8.0" },
+				{ "name": "Linq", "url": "https://learn.microsoft.com/fr-fr/dotnet/csharp/linq/get-started/introduction-to-linq-queries"}
+			],
+			"links":
+			[
+				"https://github.com/rayanelammari/Mission3rapport",
+				"https://github.com/rayanelammari/Mission3rapport",
+				"https://github.com/rayanelammari/Mission3rapport"
+			],
+			"video": "none",
+			"image": "resources/images/projects/gsb.png",
+			"logo": "resources/images/projects/gsb.png",
+			"categories": ["School"]
+		},
+		{
+			"date": 2023,
+			"type": "Projet scolaire",
+			"title": "Gestion de frais GSB",
+			"description": "Une application web permettant  au laboratoire GSB de gérer la gestion des différents types de fraid d'un visiteur.",
+			"tags":
+			[
+				{ "name": "HTML", "url": "https://en.wikipedia.org/wiki/HTML" },
+				{ "name": "CSS", "url": "https://en.wikipedia.org/wiki/CSS" },
+				{ "name": "PHP", "url": "https://fr.wikipedia.org/wiki/PHP" },
+				{ "name": "Laravel", "url": "https://fr.wikipedia.org/wiki/Laravel" }
+			],
+			"links":
+			[
+				"https://github.com/rayanelammari/gsb-laravel-master",
+				"https://github.com/rayanelammari/gsb-laravel-master",
+				"https://github.com/rayanelammari/gsb-laravel-master"
+
+			],
+			"video": "none",
+			"image": "resources/images/projects/gsb.png",
+			"logo": "resources/images/projects/gsb.png",
+
+			
+			"categories": ["School","Web"]
+		}
+	]
+}

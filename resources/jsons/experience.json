@@ -1,0 +1,101 @@
+{
+	"experience":
+	[	
+		{
+			"date": 2024,
+			"type": "Stage Développeur Back-End",
+			"title": "Fedhubs",
+			"description": " Durant le stage j'ai participer au déploiement de l'application, en réalisant des test unitaires et fonctionnels des différentes APIs, participer à la rédaction de la documentation technique pour l'application.",
+			"tags":
+			[	
+				{ "name": "Document", "url": "resources/documents/rapport_fedhubs.pdf" },
+				{ "name": "PHP", "url": "https://www.php.net/manual/fr/intro-whatis.php" },
+				{ "name": "Laravel", "url": "https://laravel.com/" },
+				{ "name": "Hoppscotch", "url": "https://hoppscotch.io/" },
+				{ "name": "Postman", "url": "https://www.postman.com/" }
+
+				
+
+
+
+			],
+			"link": "https://fedhubs.org/",
+			"video": "none",
+			"image": "resources/images/experience/fedhubs.jpg"
+		},
+
+		{
+			"date": 2023,
+			"type": "Stage Développeur C#",
+			"title": "Dreamcities",
+			"description": " Réaliser des tâches dans le développement de build pour une agence de voyage sur Unity, développé en C#, et effectuer une élaboration sur la sécurité et l'accessibilité du build.",
+			"tags":
+			[
+				{ "name": "C#", "url": "https://learn.microsoft.com/fr-fr/dotnet/csharp/" },
+				{ "name": "Unity", "url": "https://unity.com/fr" }
+			],
+			"link": "https://dreamcities.fr/",
+			"video": "none",
+			"image": "resources/images/experience/dr.gif"
+		},
+		{
+			"date": 2023,
+			"type": "Certification Cybersécurité",
+			"title": "Google Cybersecurity Certificat Professionnel",
+			"description": "Fondamentaux de la cybérsécurité, gérez les risques de sécurité, réseaux et sécurité des réseaux, Linux et SQL, actifs, menaces et vulnérabilités,détection et réponse d'incident, automatisation des tâches avec Python.",
+			"tags":
+			[
+				{ "name": "SQL", "url": "https://sql.sh/cours" },
+				{ "name": "Bash", "url": "https://www.gnu.org/software/bash/" },
+				{ "name": "Python", "url": "https://www.python.org/" },
+				{ "name": "Suricata", "url": "https://suricata.io/" },
+				{ "name": "Wireshark", "url": "https://www.wireshark.org/download.html" },
+				{ "name": "tcpdump", "url": "https://www.tcpdump.org/" }
+			],
+			"link": "resources/documents/Certificat_Google_Cybersecurity.pdf",
+			"video": "none",
+			"image": "resources/images/experience/google.png"
+		},
+		{
+			"date": 2024,
+			"type": "Certification ANSSI",
+			"title": "ANSSI MOOC Cybersécurité",
+			"description": "Initation à la cybersécurité : panorama de la SSI, sécurité de l'authentification, sécurité sur internet, sécurité du poste de travail et nomadisme.",
+			"tags":
+			[
+				{ "name": "" }
+			],
+			"link":"resources/documents/anssi_mooc_rayane_lammari.pdf",
+			"video": "none",
+			"image": "resources/images/experience/anssi.jpeg"
+		},
+		{
+			"date": 2022,
+			"type": "Certification C#",
+			"title": "Foundational C# with Microsoft",
+			"description": "Variables, type de données, structure de contrôle, déboguer les applications de console C#,principe de la programmation orienté objet.",
+			"tags":
+			[
+				{ "name": "C#","url": "https://learn.microsoft.com/fr-fr/dotnet/csharp/" }
+			],
+			"link": "https://www.freecodecamp.org/certification/fccafb6366c-4490-4c45-afff-050c68ec003e/foundational-c-sharp-with-microsoft",
+			"video": "none",
+			"image": "resources/images/experience/csharp.png"
+		},
+		
+		{
+			"date": 2021,
+			"type": "Certification OpenClassrooms",
+			"title": "Conception réseau TCP/IP",
+			"description": "Création de l'architecture physique du réseau, Configuration du réseau pour assurer la communication, Optimisation du réseau en ajoutant des services.",
+			"tags":
+			[
+				{ "name": "TCP/IP", "url": "https://fr.wikipedia.org/wiki/Suite_des_protocoles_Internet" },
+				{ "name": "Réseaux LAN,WAN,MAN", "url": "https://www.it-connect.fr/les-types-de-reseaux-lan-man-wan-et-pan-pour-les-debutants/" }
+			],
+			"link": "https://openclassrooms.com/fr/courses/6944606-concevez-votre-reseau-tcp-ip",
+			"video": "none",
+			"image": "resources/images/experience/opc.png"
+		}
+	]
+}

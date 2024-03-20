@@ -1,0 +1,94 @@
+{
+	"skills_categories":
+	[
+		{
+			"name" : "",
+			
+			"skills" :
+			[
+		
+				{
+					"name": "HTML",
+					"logo": "resources/svgs/skills/Html.svg",
+					"link": "https://en.wikipedia.org/wiki/HTML"
+				},
+				{
+					"name": "CSS",
+					"logo": "resources/svgs/skills/Css.svg",
+					"link": "https://en.wikipedia.org/wiki/CSS"
+				},
+				{
+					"name": "Bootstrap",
+					"logo": "resources/svgs/skills/Bootstrap.svg",
+					"link": "https://getbootstrap.com/"
+				},
+				{
+					"name": "JavaScript",
+					"logo": "resources/svgs/skills/JavaScript.svg",
+					"link": "https://en.wikipedia.org/wiki/JavaScript"
+				},
+				{
+					"name": "C#",
+					"logo": "resources/svgs/skills/C_sharp.svg",
+					"link": "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"
+				},
+				{
+					"name": "WinForms",
+					"logo": "resources/svgs/skills/WinForms.svg",
+					"link": "https://learn.microsoft.com/fr-fr/dotnet/desktop/winforms/overview/?view=netdesktop-8.0"
+				},
+				{
+					"name": "Python",
+					"logo": "resources/svgs/skills/Python.svg",
+					"link": "https://www.python.org/"
+				},
+				{
+					"name": "SQL",
+					"logo": "resources/svgs/skills/Sql.svg",
+					"link": "https://sql.sh"
+				},
+				{
+					"name": "PHP",
+					"logo": "resources/svgs/skills/php.svg",
+					"link": "https://www.php.net/manual/fr/intro-whatis.php"
+				},
+				{
+					"name": "Laravel",
+					"logo": "resources/svgs/skills/Laravel.svg",
+					"link": "https://laravel.com/"
+				},
+				{
+					"name": "Postman",
+					"logo": "resources/svgs/skills/Postman.svg",
+					"link": "https://www.postman.com/"
+				},
+			
+				{
+					"name": "Git",
+					"logo": "resources/svgs/skills/Git.svg",
+					"link": "https://git-scm.com/"
+				},
+				{
+					"name": " Linux",
+					"logo": "resources/svgs/skills/Unix.svg",
+					"link": "https://www.kernel.org/"
+				},
+				{
+					"name": "VMware",
+					"logo": "resources/svgs/skills/vmware.svg",
+					"link": "https://www.vmware.com/fr.html"
+				},
+				{
+					"name": "TryHackMe",
+					"logo": "resources/svgs/skills/tryhackme.svg",
+					"link": "https://tryhackme.com/"
+				},
+				{
+					"name": "Root Me",
+					"logo": "resources/svgs/skills/rme.svg",
+					"link": " https://www.root-me.org/erwoxs"
+				}
+			]
+		}
+	]
+}
