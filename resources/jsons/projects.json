@@ -1,46 +1,23 @@
 {
 	"projects":
-	[
-	
-		{
-			"date": 2023,
-			"type": "Projet scolaire",
-			"title": "Appli-CR",
-			"description": "Il s'agit d'une application bureautique destionné au laboratoire GSB permettant de gérer et de réaliser un suivi des médicaments des patients.",
-			"tags":
-			[
-				{ "name": "C#", "url": "https://learn.microsoft.com/en-us/dotnet/csharp/" },
-				{ "name": "WinForm", "url": "https://learn.microsoft.com/fr-fr/dotnet/desktop/winforms/overview/?view=netdesktop-8.0" },
-				{ "name": "Linq", "url": "https://learn.microsoft.com/fr-fr/dotnet/csharp/linq/get-started/introduction-to-linq-queries"}
-			],
-			"links":
-			[
-				"https://github.com/rayanelammari/Mission3rapport",
-				"https://github.com/rayanelammari/Mission3rapport",
-				"https://github.com/rayanelammari/Mission3rapport"
-			],
-			"video": "none",
-			"image": "resources/images/projects/gsb.png",
-			"logo": "resources/images/projects/gsb.png",
-			"categories": ["School"]
-		},
+	[	
 		{
 			"date": 2023,
 			"type": "Projet scolaire",
 			"title": "Gestion de frais GSB",
-			"description": "Une application web permettant  au laboratoire GSB de gérer la gestion des différents types de fraid d'un visiteur.",
+			"description": "Une application web permettant de suivre le remboursement des frais, avec la gestion des fiches de frais des visiteurs en fonction de la période, du type de frais et la possibilité de modifier les frais de services.",
 			"tags":
 			[
 				{ "name": "HTML", "url": "https://en.wikipedia.org/wiki/HTML" },
 				{ "name": "CSS", "url": "https://en.wikipedia.org/wiki/CSS" },
 				{ "name": "PHP", "url": "https://fr.wikipedia.org/wiki/PHP" },
-				{ "name": "Laravel", "url": "https://fr.wikipedia.org/wiki/Laravel" }
+				{ "name": "MVC", "url": "https://fr.wikipedia.org/wiki/Mod%C3%A8le-vue-contr%C3%B4leur" }
 			],
 			"links":
 			[
-				"https://github.com/rayanelammari/gsb-laravel-master",
-				"https://github.com/rayanelammari/gsb-laravel-master",
-				"https://github.com/rayanelammari/gsb-laravel-master"
+				"https://github.com/rayanelammari/ap_mission1_gsb",
+				"https://github.com/rayanelammari/ap_mission1_gsb"
+
 
 			],
 			"video": "none",
@@ -49,6 +26,61 @@
 
 			
 			"categories": ["School","Web"]
-		}
+		},
+		
+		{
+				"date": 2023,
+				"type": "Projet scolaire",
+				"title": "Gestion de frais GSB",
+				"description": "Une application web permettant  au laboratoire GSB d'administrer les visiteurs, avec la possibilité de modifier ou supprimer des visiteurs d'une liste , et permettant également de générer cette liste en un document PDF. L'application web permet aussi aux visiteurs de gérer leur frais de services.",
+				"tags":
+				[
+					{ "name": "HTML", "url": "https://en.wikipedia.org/wiki/HTML" },
+					{ "name": "CSS", "url": "https://en.wikipedia.org/wiki/CSS" },
+					{ "name": "PHP", "url": "https://fr.wikipedia.org/wiki/PHP" },
+					{ "name": "Laravel", "url": "https://fr.wikipedia.org/wiki/Laravel" },
+					{ "name": "Document", "url": "resources/documents/Répartition des tâches mission_ maquette 2a.pdf" }
+					
+
+				],
+				"links":
+				[
+					"https://github.com/rayanelammari/gsb-laravel-master",
+					"https://github.com/rayanelammari/gsb-laravel-master",
+					"https://github.com/rayanelammari/gsb-laravel-master"
+
+				],
+				"video": "none",
+				"image": "resources/images/projects/gsb.png",
+				"logo": "resources/images/projects/gsb.png",
+
+				
+				"categories": ["School","Web"]
+			},
+			{
+				"date": 2024,
+				"type": "Projet scolaire",
+				"title": "Appli-CR",
+				"description": "Il s'agit d'une application bureautique destiné au laboratoire GSB permettant de gérer et de réaliser un suivi des médicaments des patients.",
+				"tags":
+				[
+					{ "name": "C#", "url": "https://learn.microsoft.com/en-us/dotnet/csharp/" },
+					{ "name": "WinForm", "url": "https://learn.microsoft.com/fr-fr/dotnet/desktop/winforms/overview/?view=netdesktop-8.0" },
+					{ "name": "Linq", "url": "https://learn.microsoft.com/fr-fr/dotnet/csharp/linq/get-started/introduction-to-linq-queries"},
+					{ "name": "Document", "url": "resources/documents/Répartition taches mission3b.pdf"}
+
+				],
+				"links":
+				[
+					"https://github.com/rayanelammari/Mission3rapport",
+					"https://github.com/rayanelammari/Mission3rapport",
+					"https://github.com/rayanelammari/Mission3rapport"
+				],
+				"video": "none",
+				"image": "resources/images/projects/gsb.png",
+				"logo": "resources/images/projects/gsb.png",
+				"categories": ["School"]
+			}
+		
 	]
 }

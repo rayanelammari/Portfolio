@@ -5,7 +5,7 @@
 			"date": 2024,
 			"type": "Stage Développeur Back-End",
 			"title": "Fedhubs",
-			"description": " Durant le stage j'ai participer au déploiement de l'application, en réalisant des test unitaires et fonctionnels des différentes APIs, participer à la rédaction de la documentation technique pour l'application.",
+			"description": "Durant le stage, j'ai participé au déploiement de l'application, en réalisant des tests unitaires de différentes API sur Postman et Hoppscotch, participer à la rédaction de la documentation technique pour l'application, et aussi la modélisation de certaines fonctionnalités introduite dans la base de données.",
 			"tags":
 			[	
 				{ "name": "Document", "url": "resources/documents/rapport_fedhubs.pdf" },
@@ -28,9 +28,10 @@
 			"date": 2023,
 			"type": "Stage Développeur C#",
 			"title": "Dreamcities",
-			"description": " Réaliser des tâches dans le développement de build pour une agence de voyage sur Unity, développé en C#, et effectuer une élaboration sur la sécurité et l'accessibilité du build.",
+			"description": "J'ai pu réaliser ce stage, au sein d'une agence de voyage, à travers la réalité virtuelle. J'ai utilisé Unity, pour réaliser du développement de build et des revues de code en C#.",
 			"tags":
-			[
+			[	
+				{ "name": "Document", "url": "resources/documents/Document_stage1.pdf" },
 				{ "name": "C#", "url": "https://learn.microsoft.com/fr-fr/dotnet/csharp/" },
 				{ "name": "Unity", "url": "https://unity.com/fr" }
 			],

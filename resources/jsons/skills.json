@@ -77,17 +77,8 @@
 					"name": "VMware",
 					"logo": "resources/svgs/skills/vmware.svg",
 					"link": "https://www.vmware.com/fr.html"
-				},
-				{
-					"name": "TryHackMe",
-					"logo": "resources/svgs/skills/tryhackme.svg",
-					"link": "https://tryhackme.com/"
-				},
-				{
-					"name": "Root Me",
-					"logo": "resources/svgs/skills/rme.svg",
-					"link": " https://www.root-me.org/erwoxs"
 				}
+				
 			]
 		}
 	]

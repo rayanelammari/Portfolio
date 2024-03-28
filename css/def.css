@@ -35,7 +35,7 @@
 	}
 }
 
-#def_section .def_title
+#def_section .section_title
 {
 	color: var(--black_title);
 }
