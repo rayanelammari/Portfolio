@@ -1,0 +1,43 @@
+{
+	"parcours":
+	[	
+		{
+			"date": 2024,
+			"type": "BTS SIO SLAM",
+			"title": "Lycée Voillaume",
+			"description": "BTS ",
+			"tags":
+			[	
+				{ "name": "Document", "url": "resources/documents/rapport_fedhubs.pdf" },
+				{ "name": "PHP", "url": "https://www.php.net/manual/fr/intro-whatis.php" },
+				{ "name": "Laravel", "url": "https://laravel.com/" },
+				{ "name": "Hoppscotch", "url": "https://hoppscotch.io/" },
+				{ "name": "Postman", "url": "https://www.postman.com/" }
+
+				
+
+
+
+			],
+			"link": "https://fedhubs.org/",
+			"video": "none",
+			"image": "resources/images/experience/fedhubs.jpg"
+		},
+
+		{
+			"date": 2023,
+			"type": "Stage Développeur C#",
+			"title": "Dreamcities",
+			"description": "J'ai pu réaliser ce stage, au sein d'une agence de voyage, à travers la réalité virtuelle. J'ai utilisé Unity, pour réaliser du développement de build et des revues de code en C#.",
+			"tags":
+			[	
+				{ "name": "Document", "url": "resources/documents/Document_stage1_Rayane_Lammari.pdf" },
+				{ "name": "C#", "url": "https://learn.microsoft.com/fr-fr/dotnet/csharp/" },
+				{ "name": "Unity", "url": "https://unity.com/fr" }
+			],
+			"link": "https://dreamcities.fr/",
+			"video": "none",
+			"image": "resources/images/experience/dr.gif"
+		}
+	]
+}

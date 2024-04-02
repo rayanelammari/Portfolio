@@ -1,27 +1,27 @@
-#projects_section
+#parcours_section
 {
 	background-color: var(--dark_purple);
 }
 
-.projects_end
+.parcours_end
 {
 	background-color: var(--dark_purple);
 }
 
-#projects_section .section_title
+#parcours_section .section_title
 {
 	color: var(--white);
-	margin-bottom: 60px;
+	margin-bottom: clamp(50px, 6vw, 80px);
 }
 
-#projects_section .project.in_animation
+#parcours_section .job.in_animation
 {
 	opacity: 0;
 	transform: translateY(70px);
 	transition: opacity 0.6s ease-in-out, transform 0.6s ease-in-out, filter 0.3s ease;
 }
 
-#projects_section .sort_choices
+#parcours_section .sort_choices
 {
 	display: flex;
 	justify-content: center;
@@ -32,14 +32,14 @@
 	gap: 20px;
 }
 
-#projects_section .sort_choices .label
+#parcours_section .sort_choices .label
 {
 	color: var(--white);
 	font-family: raleway_semi_bold;
 	font-size: 17px;
 }
 
-#projects_section .sort_choices .choice
+#parcours_section .sort_choices .choice
 {
 	color: var(--light_blue);
 	font-family: raleway_semi_bold;
@@ -51,12 +51,12 @@
 	transition: background-color 0.2s ease-in-out;
 }
 
-#projects_section .sort_choices .choice:hover
+#parcours_section .sort_choices .choice:hover
 {
 	background-color: var(--fade_light_blue);
 }
 
-#projects_section .sort_choices .choice.selected
+#parcours_section .sort_choices .choice.selected
 {
 	color: var(--dark_purple);
 	background-color: var(--light_blue);
@@ -64,12 +64,12 @@
 	pointer-events: none;
 }
 
-#projects_section .sort_choices .choice.selected:hover
+#parcours_section .sort_choices .choice.selected:hover
 {
 	background-color: var(--light_blue);
 }
 
-#projects_section .projects_content
+#parcours_section .parcours_content
 {
 	display: flex;
 	justify-content: center;
@@ -77,12 +77,11 @@
 	flex-direction: column;
 	width: 100%;
 	gap: clamp(20px, 7vw, 100px);
-	margin-bottom: clamp(60px, 8vw, 100px);
 }
 
 @media screen and (max-width: 1125px)
 {
-	#projects_section .projects_content
+	#parcours_section .parcours_content
 	{
 		gap: clamp(20px, 5vw, 100px);
 	}
@@ -90,13 +89,13 @@
 
 @media screen and (max-width: 780px)
 {
-	#projects_section .projects_content
+	#parcours_section .parcours_content
 	{
 		gap: 35px;
 	}
 }
 
-#projects_section .project
+#parcours_section .job
 {
 	display: flex;
 	justify-content: center;
@@ -105,14 +104,14 @@
 	padding-right: clamp(0px, calc(18vw - 234px), 60px);
 }
 
-#projects_section .project.inverted
+#parcours_section .job.inverted
 {
 	flex-direction: row-reverse;
 	padding-left: clamp(0px, calc(18vw - 234px), 60px);
 	padding-right: 0px;
 }
 
-#projects_section .project_view
+#parcours_section .job_view
 {
 	z-index: 5;
 	display: flex;
@@ -120,7 +119,7 @@
 	align-items: center;
 }
 
-#projects_section .project_view a
+#parcours_section .job_view a
 {
 	display: flex;
 	justify-content: center;
@@ -132,25 +131,25 @@
 	transition: filter 0.3s ease;
 }
 
-#projects_section .project_view a:hover
+#parcours_section .job_view a:hover
 {
 	filter: drop-shadow(0px 5px 20px rgba(0, 0, 0, 0.7));
 }
 
-#projects_section .project_view video
+#parcours_section .job_view video
 {
 	position: absolute;
 	width: 100%;
 	height: 100%;
 }
 
-#projects_section .project_view img
+#parcours_section .job_view img
 {
 	width: 100%;
 	height: 100%;
 }
 
-#projects_section .project_text
+#parcours_section .job_text
 {
 	z-index: 10;
 	position: relative;
@@ -161,14 +160,14 @@
 	margin-right: -100px;
 }
 
-#projects_section .inverted .project_text
+#parcours_section .inverted .job_text
 {
 	align-items: flex-end;
 	margin-left: -100px;
 	margin-right: 0px;
 }
 
-#projects_section .project_text .type
+#parcours_section .job_text .type
 {
 	display: flex;
 	width: 100%;
@@ -182,14 +181,14 @@
 	margin-bottom: 10px;
 }
 
-#projects_section .inverted .project_text .type
+#parcours_section .inverted .job_text .type
 {
 	margin-left: 0px;
 	margin-right: 15px;
 	flex-direction: row-reverse;
 }
 
-#projects_section .project_text .project_title
+#parcours_section .job_text .job_title
 {
 	font-family: calibre_semi_bold;
 	font-size: 32px;
@@ -200,18 +199,18 @@
 	transition: color 0.2s ease;
 }
 
-#projects_section .inverted .project_text .project_title
+#parcours_section .inverted .job_text .job_title
 {
 	margin-left: 0px;
 	margin-right: 15px;
 }
 
-#projects_section .project_text .project_title:hover
+#parcours_section .job_text .job_title:hover
 {
 	color: var(--light_blue);
 }
 
-#projects_section .project_text .text
+#parcours_section .job_text .text
 {
 	background-color: var(--purple);
 	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
@@ -221,12 +220,12 @@
 	transition: box-shadow 0.3s ease;
 }
 
-#projects_section .project_text .text:hover
+#parcours_section .job_text .text:hover
 {
 	box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.6);
 }
 
-#projects_section .project_text .text p
+#parcours_section .job_text .text p
 {
 	font-family: calibre_regular;
 	font-size: 20px;
@@ -234,12 +233,12 @@
 	color: var(--fade_white);
 }
 
-#projects_section .inverted .project_text .text p
+#parcours_section .inverted .job_text .text p
 {
 	text-align: end;
 }
 
-#projects_section .project_text .tags
+#parcours_section .job_text .tags
 {
 	display: flex;
 	justify-content: flex-start;
@@ -251,14 +250,14 @@
 	gap: 8px;
 }
 
-#projects_section .inverted .project_text .tags
+#parcours_section .inverted .job_text .tags
 {
 	justify-content: flex-end;
 	margin-left: 0px;
 	margin-right: 9px;
 }
 
-#projects_section .project_text .tags a
+#parcours_section .job_text .tags a
 {
 	font-family: raleway_semi_bold;
 	font-size: 16px;
@@ -270,12 +269,12 @@
 	transition: opacity 0.2s ease;
 }
 
-#projects_section .project_text .tags a:hover
+#parcours_section .job_text .tags a:hover
 {
 	opacity: 0.5;
 }
 
-#projects_section .project_text .links
+#parcours_section .job_text .links
 {
 	display: flex;
 	justify-content: flex-end;
@@ -284,23 +283,23 @@
 	gap: 20px;
 }
 
-#projects_section .inverted .project_text .links
+#parcours_section .inverted .job_text .links
 {
 	margin-left: 0px;
 	margin-right: 15px;
 }
 
-#projects_section .project_text .links .github
+#parcours_section .job_text .links .github
 {
 	--color: rgb(181, 184, 192);
 }
 
-#projects_section .project_text .links .test
+#parcours_section .job_text .links .test
 {
 	--color: rgb(41, 168, 99);
 }
 
-#projects_section .project_text .links svg
+#parcours_section .job_text .links svg
 {
 	width: 21px;
 	fill: none;
@@ -312,19 +311,19 @@
 	transition: opacity 0.2s ease;
 }
 
-#projects_section .project_text .links svg:hover
+#parcours_section .job_text .links svg:hover
 {
 	opacity: 0.6;
 }
 
-#projects_section .project_text .links a
+#parcours_section .job_text .links a
 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-#projects_section .project_text .links .bubble
+#parcours_section .job_text .links .bubble
 {
 	pointer-events: none;
 	position: absolute;
@@ -341,7 +340,7 @@
 	transition: opacity 0.3s ease;
 }
 
-#projects_section .project_text .links .bubble::after
+#parcours_section .job_text .links .bubble::after
 {
 	pointer-events: none;
 	content: "";
@@ -354,7 +353,7 @@
 	border-color: transparent transparent var(--color) transparent;
 }
 
-#projects_section .project_text .links a:hover .bubble
+#parcours_section .job_text .links a:hover .bubble
 {
 	opacity: 0.8;
 }
@@ -428,7 +427,7 @@
 
 @media screen and (max-width: 780px)
 {
-	#projects_section .project
+	#parcours_section .job
 	{
 		background-size: cover;
 		background-position: center;
@@ -437,12 +436,12 @@
 		transition: filter 0.3s ease;
 	}
 
-	#projects_section .project:hover
+	#parcours_section .job:hover
 	{
 		filter: drop-shadow(0px 5px 20px rgba(0, 0, 0, 0.7));
 	}
 
-	#projects_section .project_text
+	#parcours_section .job_text
 	{
 		align-items: flex-start;
 		margin-left: 0px;
@@ -454,23 +453,23 @@
 
 	@media screen and (max-width: 500px)
 	{
-		#projects_section .project_text
+		#parcours_section .job_text
 		{
 			padding: 50px 25px 50px 25px;
 		}
 	}
 
-	#projects_section .project_text .type
+	#parcours_section .job_text .type
 	{
 		margin-left: 0px;
 	}
 
-	#projects_section .project_text .project_title
+	#parcours_section .job_text .job_title
 	{
 		margin-left: 0px;
 	}
 
-	#projects_section .project_text .text
+	#parcours_section .job_text .text
 	{
 		background: none;
 		box-shadow: none;
@@ -478,27 +477,27 @@
 		padding: 10px 0px 8px 0px;
 	}
 
-	#projects_section .project_text .text:hover
+	#parcours_section .job_text .text:hover
 	{
 		box-shadow: none;
 	}
 
-	#projects_section .project_text .text p
+	#parcours_section .job_text .text p
 	{
 		color: var(--white);
 	}
 
-	#projects_section .project_text .tags
+	#parcours_section .job_text .tags
 	{
 		margin-left: -6px;
 	}
 
-	#projects_section .project_text .links
+	#parcours_section .job_text .links
 	{
 		margin-left: 0px;
 	}
 
-	#projects_section .project_text .links .bubble
+	#parcours_section .job_text .links .bubble
 	{
 		bottom: 15px;
 	}

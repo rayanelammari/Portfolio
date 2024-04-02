@@ -31,7 +31,7 @@
 			"description": "J'ai pu réaliser ce stage, au sein d'une agence de voyage, à travers la réalité virtuelle. J'ai utilisé Unity, pour réaliser du développement de build et des revues de code en C#.",
 			"tags":
 			[	
-				{ "name": "Document", "url": "resources/documents/Document_stage1.pdf" },
+				{ "name": "Document", "url": "resources/documents/Document_stage1_Rayane_Lammari.pdf" },
 				{ "name": "C#", "url": "https://learn.microsoft.com/fr-fr/dotnet/csharp/" },
 				{ "name": "Unity", "url": "https://unity.com/fr" }
 			],

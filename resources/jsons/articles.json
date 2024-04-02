@@ -1,5 +1,5 @@
 {
-	"projects":
+	"articles":
 	[	
 		{
 			"date": 2023,
@@ -21,11 +21,11 @@
 
 			],
 			"video": "none",
-			"image": "resources/images/projects/gsb1.png",
-			"logo": "resources/images/projects/gsb1.png",
+			"image": "resources/images/projects/gsb.png",
+			"logo": "resources/images/projects/gsb.png",
 
 			
-			"categories": ["Scolaire","Web"]
+			"categories": ["School","Web"]
 		},
 		
 		{
@@ -51,11 +51,11 @@
 
 				],
 				"video": "none",
-				"image": "resources/images/projects/gsb2.png",
-				"logo": "resources/images/projects/gsb2.png",
+				"image": "resources/images/projects/gsb.png",
+				"logo": "resources/images/projects/gsb.png",
 
 				
-				"categories": ["Scolaire","Web"]
+				"categories": ["School","Web"]
 			},
 			{
 				"date": 2024,
@@ -77,35 +77,10 @@
 					"https://github.com/rayanelammari/Mission3rapport"
 				],
 				"video": "none",
-				"image": "resources/images/projects/gsb3.png",
-				"logo": "resources/images/projects/gsb3.png",
-				"categories": ["Scolaire"]
-			},
-			{
-				"date": 2024,
-				"type": "Projet Personnel",
-				"title": "Application météo",
-				"description": "Il s'agit d'une application météo développer avec le framework React, et utilisant  l'API météo de Openweathermap pour les données météorologiques.",
-				"tags":
-				[
-					{ "name": "HTML", "url": "https://en.wikipedia.org/wiki/HTML" },
-					{ "name": "CSS", "url": "https://en.wikipedia.org/wiki/CSS" },
-					{ "name": "JavaScript", "url": "https://en.wikipedia.org/wiki/JavaScript"},
-					{ "name": "React", "url": "https://react.dev/"}
-
-				],
-				"links":
-				[
-					"https://rayanelammari.github.io/WeatherApp",
-					"https://github.com/rayanelammari/WeatherApp",
-					"https://github.com/rayanelammari/WeatherApp"
-				],
-				"video": "none",
-				"image": "resources/images/projects/weather.jpg",
-				"logo": "resources/images/projects/weather.jpg",
-				"categories": ["Personnel","Web"]
+				"image": "resources/images/projects/gsb.png",
+				"logo": "resources/images/projects/gsb.png",
+				"categories": ["School"]
 			}
-
 		
 	]
 }
