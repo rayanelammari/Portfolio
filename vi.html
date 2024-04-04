@@ -23,7 +23,6 @@
 		<script src="js/skills.js"></script>
 		<script src="js/experience.js"></script>
 		<script src="js/script.js"></script>
-		<script src="js/articles.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 	
@@ -32,6 +31,34 @@
 		<link rel="stylesheet" type="text/css" href="css/header.css"/>
 		<link rel="stylesheet" type="text/css" href="css/menu.css"/>
 		<link rel="stylesheet" type="text/css" href="css/home.css"/>
+		<link rel="stylesheet" type="text/css" href="css/img.css">
+
+
+		<style>
+			/* Ajoutez du style ici si nécessaire */
+			.img-zoom-overlay {
+			  position: fixed;
+			  top: 0;
+			  left: 0;
+			  width: 100%;
+			  height: 100%;
+			  background-color: rgba(0, 0, 0, 0.8);
+			  display: none;
+			  justify-content: center;
+			  align-items: center;
+			  z-index: 9999;
+			}
+			
+			.img-zoom-overlay img {
+			  max-width: 90%;
+			  max-height: 90%;
+			}
+			
+			.img-zoom-overlay.active {
+			  display: flex;
+			}
+			</style>
+
 	</head>
 	<body>
 		<div id="loading_screen"></div>
@@ -49,7 +76,7 @@
 						<ol>
 							<li class="home in_animation"><a class="not_button" href="index.html">Accueil</a></li>
 							<li class="def in_animation"><a class="not_button" href="#def">Définition</a></li>
-							<li class="topic in_animation"><a class="not_button" href="#def">Sujet</a></li>
+							<li class="topic in_animation"><a class="not_button" href="#topic">Sujet</a></li>
 							<li class="contact in_animation">
 								<a class="button" href="#contact">
 									<p>Contact</p>
@@ -100,7 +127,7 @@
 					<div id="particles"></div>
 					<div class="content">
 						<span class="hi in_animation"></span>
-						<span class="name in_animation">Veille informationelle <br> Vulnérabilité Buffer Overflow </span>
+						<span class="name in_animation">Veille informationnelle <br> Vulnérabilité Buffer Overflow </span>
 						<p> <span class="typed" data-typed-items="étudiant en BTS SIO option SLAM"></span></p>
 						
 				
@@ -127,18 +154,18 @@
 						<span class="section_title">QU'EST-CE QUE LA VEILLE INFORMATIONNELLE ?</span>
 						<div class="def_content">
 							<p class="p_1">
-								La veille informationelle, élément de la veille stratégique, consiste à surveiller les évolutions techniques, les innovations dans un secteur d’activité donnée.</br></br>
-								La veille informationelle comprend notamment la surveillance, la collecte, le partage et la diffusion d’information permettant d’anticiper ou de s’informer sur des changements en matière de recherche, développement, brevet, lancement de nouveaux produits, matériaux, processus, concepts, innovation de fabrication, etc…. </br></br>
-								Cela a pour but d’évaluer l’impact sur l’environnement et l’organisation.<br>
-								<img src="resources/documents/veille_processus1.png" width="500" style="display: block; margin: 0 auto;"><br>
+								La veille informationnelle, élément de la veille stratégique, consiste à surveiller les évolutions techniques, les innovations dans un secteur d’activité donnée.</br></br>
+								La veille informationnelle comprend notamment la surveillance, la collecte, le partage et la diffusion d’information permettant d’anticiper ou de s’informer sur des changements en matière de recherche, développement, brevet, lancement de nouveaux produits, matériaux, processus, concepts, innovation de fabrication, etc…. </br></br>
+								<br>
+								<img src="resources/documents/veille_processus1.jpg" width="500" style="display: block; margin: 0 auto;"><br>
 							</p>
 						</div><br><br>
 
-
+						<a id="topic"></a>
 						<span class="section_title">SUJET DE LA VEILLE INFORMATIONNELLE</span>
 						<div class="def_content">
 								<p class="p_1" style="display: block; margin: 0 auto;">
-									<b>Pour la veille informationelle, j'ai décidé de traiter sur la vulnérabilité Buffer Overflow.</b><br>
+									<b>Pour la veille informationnelle, j'ai décidé de traiter sur la vulnérabilité Buffer Overflow.</b><br>
 									<i style="color: red;">La thématique est : Comment les attaquants exploitent les vulnérabilités de type Buffer Overflow ?</i>
 								</p>
 								<img src="resources/documents/What-is-Buffer-Overflow-1.jpg" width="500" style="margin: 0 10px;">
@@ -155,12 +182,13 @@
 									Pour ce qui est de Feedly, je me rends réguliéremenet sur ce site, et lorsqu'une information importante est remontée je mets le lien de l'article dans pearltrees également.
 								   </p>
 							</div><br>
-						   
-						<div style="display: flex; justify-content: center;">
+						
+						<div class="gallery" style="display: flex; justify-content: center;">
 							<img src="resources/documents/Capture d'écran 2024-03-24 140550.png" width="350" style="margin: 0 10px;">
 							<img src="resources/documents/Capture d'écran 2024-03-24 151323.png" width="350" style="margin: 0 10px;">
 							<img src="resources/documents/Capture d'écran 2024-03-27 064548.png" width="350" style="margin: 0 10px;">
 						</div><br><br>
+						<div class="img-zoom-overlay"></div>
 
 						<span class="section_title"> COMMENT EST FAITE LA GESTION DE PEARLTREES ?</span>
 							<div class="def_content">
@@ -171,38 +199,76 @@
 						 
 						<iframe src="https://www.pearltrees.com/rayane_lammari?embed=2&d=20240312133" width="853" height="604" style="border:0px;" allowtransparency="true"></iframe><span style="display:block; padding-top:2px; color:#818181; font-size:13px;"><a href="https://www.pearltrees.com/rayane_lammari" style=" color:#818181; font-size:13px;" target="_blank"></a></span><br></br>
 						
-						<span class="section_title">QUELQUES DÉFINITIONS </span>
+
+						<span class="section_title">Comment les attaquants exploitent ce type de vulnérabilité?</span>	
+
 							<div class="def_content">
 								<p class="p_1">
-									<strong><span style="color: red;">Buffer :</span></strong> un tampon est une zone de stockage temporaire dans la mémoire d'un ordinateur qui contient des données pendant leur traitement. Les tampons sont utilisés dans de nombreuses parties d'un programme, telles que les opérations d'entrée/sortie, la communication réseau et l'allocation de mémoire..<br><br>
-    								<strong><span style="color: red;">Débordement de tampon/Buffer Overflow :</span></strong> Un débordement de tampon (ou buffer overrun) se produit lorsque le volume de données dépasse la capacité de stockage de la mémoire tampon. En conséquence, le programme qui tente d'écrire les données dans le tampon écrase les emplacements mémoire adjacents .<br><br>
-    								<strong><span style="color: red;">pointeur en C :</span></strong> 
-									Les pointeurs dans les langages bas niveau comme le C/C++ sont des variables spéciales qui stockent les adresses mémoire d'autres variables, permettant ainsi d'accéder et de manipuler directement les données situées à ces adresses.<br><br>
-									<strong><span style="color: red;">Buffer overflow basé sur la pile :</span></strong> ce type d'attaque exploite une vulnérabilité dans la pile, qui est une région de mémoire utilisée pour stocker les trames d'appel de fonction et les variables locales. En faisant déborder la pile avec plus de données qu'elle ne peut en contenir, un attaquant peut modifier le comportement du programme et exécuter du code arbitraire.<br><br>
-									<strong><span style="color: red;">Buffer overflow basé sur le tas : </span></strong>ce type d'attaque cible le tas, qui est une région de mémoire utilisée pour l'allocation dynamique de mémoire. En faisant déborder le tas avec plus de données qu'il ne peut en contenir, un attaquant peut corrompre l'espace mémoire et modifier le comportement du programme.
+									<ul class="u_1">
+										<li>Les attaquants exploitent les problèmes de débordement de tampon en écrasant la mémoire d'une application. Cela modifie le chemin d'exécution du programme, déclenchant une réponse qui endommage les fichiers ou expose des informations privées. Par exemple, un attaquant peut introduire du code supplémentaire, envoyant de nouvelles instructions à l'application pour accéder aux systèmes informatiques.</li><br>
+										
+										<li>Si les attaquants connaissent la disposition de la mémoire d'un programme, ils peuvent intentionnellement introduire des entrées que le tampon ne peut pas stocker et écraser les zones contenant du code exécutable, en le remplaçant par leur propre code. Par exemple, un attaquant peut écraser un pointeur (un objet qui pointe vers une autre zone de la mémoire) et le pointer vers une charge utile d'exploit, pour prendre le contrôle du programme.</li>
+										<br>
+										<br>
+										Source : <a target="_blank" href="https://www.techtarget.com/searchsecurity/definition/buffer-underflow">https://www.techtarget.com/searchsecurity/definition/buffer-underflow</a><br>
+										<br>
+										<li>Exemple de vulnérabilité :</li>
+										<img src="resources/images/veille/example.png" alt="">
+									</ul><br></br>
 								</p>
 							</div><br>
+
+						<span class="section_title">Types d'attaques par débordement de mémoire tampon </span>
+							<div class="def_content">
+								<p class="p_1">
+									<ul class="u_1">
+
+										<li><strong>Les dépassements de tampon basés sur la pile</strong> sont plus courants et exploitent la mémoire de la pile qui n'existe que pendant le temps d'exécution d'une fonction.</li><br>
+										
+										<li><strong>Les attaques basées sur le tas</strong> sont plus difficiles à réaliser et impliquent d'inonder l'espace mémoire alloué à un programme au-delà de la mémoire utilisée pour les opérations d'exécution en cours.</li>
+										<br>
+										Source :  <a target="_blank" href="https://www.imperva.com/learn/application-security/buffer-overflow/">https://www.imperva.com/learn/application-security/buffer-overflow/</a>
+									</ul>
+								</p>
+							</div><br>
+
+							
+
+						<span class="section_title">Quels langages de programmation sont les plus vulnérables ?</span>
+							<div class="def_content">
+								<p class="p_1">
+									<ul class="u_1">
+										<li>C et C++ sont deux langages très sensibles aux attaques par débordement de mémoire tampon, car ils ne disposent pas de protections intégrées contre l'écrasement ou l'accès aux données dans leur mémoire. Mac OSX, Windows et Linux utilisent tous du code écrit en C et C++</li><br>
+										
+										<li>Des langages tels que PERL, Java, JavaScript et C# utilisent des mécanismes de sécurité intégrés qui minimisent le risque de débordement de mémoire tampon.</li>
+										<br>
+										Source : <a target="_blank"   href="https://www.lemondeinformatique.fr/actualites/lire-la-maison-blanche-exhorte-les-developpeurs-a-abandonner-c-et-c-93089.html">https://www.lemondeinformatique.fr/actualites/NSA/MaisonBlanche</a>
+										
+									</ul>
+								</p>
+							</div><br>
+
+							<span class="section_title">Les protections de cette vulnérabilité</span>
+							<div class="def_content">
+								<p class="p_1">
+									<ul class="u_1">
+										<li><strong>Randomisation de l'espace d'adressage (ASLR) :</strong> se déplace de manière aléatoire autour des emplacements de l'espace d'adressage des régions de données. En règle générale, les attaques par débordement de tampon doivent connaître la localité du code exécutable, et la randomisation des espaces d'adressage rend cela pratiquement impossible.</li><br>
+										
+										<li><strong>Prévention de l'exécution des données : </strong> signale certaines zones de mémoire comme non exécutables ou exécutables, ce qui empêche une attaque d'exécuter du code dans une région non exécutable.</li>
+										<br>
+										Source : <a target="_blank"   href="https://www.phoronix.com/news/GCC-14-fanalyzer-Enhancements">https://www.phoronix.com/news/GCC-14-fanalyzer-Enhancements</a>
+										
+									</ul>
+								</p>
+							</div><br>
+
 					</div>
 				</section>
 				<div class="section_end def_end"></div>
 
 				
 
-				<link rel="stylesheet" type="text/css" href="css/articles.css"/>
-
-				<a id="articles"></a>
-				<section class="section" id="articles_section">
-					<div class="content leaning">
-						<span class="section_title">Articles</span>
-						<div class="sort_choices">
-							<span class="label">Trier par</span>
-							<div class="choice selected">Default</div>
-							<div class="choice">Date</div>
-						</div>
-						<div class="articles_content"></div>
-					</div>
-				</section>
-				<div class="section_end articles_end"></div>
+	
 
 			
 
@@ -264,5 +330,7 @@
 				</footer>
 			</main>
 		</div>
+		<script src="js/img.js"></script>
+
 	</body>
 </html>

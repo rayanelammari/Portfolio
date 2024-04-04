@@ -48,6 +48,15 @@
 	line-height: 1.3;
 }
 
+#def_section .def_content .u_1
+{
+	font-family: calibre_regular;
+	font-size: 20px;
+	color: var(--black_text);
+	line-height: 1.3;
+}
+
+
 #def_section .photo
 {
 	width: -webkit-fit-content;

@@ -1,0 +1,12 @@
+.img-zoom-overlay img {
+    width: 90%;
+    height: 90%;
+    max-width: none;
+    max-height: none;
+    cursor: zoom-out;
+  }
+
+.gallery {
+    cursor: zoom-in; /* Applique le curseur zoom-in */
+}
+

@@ -74,6 +74,12 @@
 					"link": "https://www.kernel.org/"
 				},
 				{
+					"name": "GLPI",
+					"logo": "resources/svgs/skills/glpi.svg",
+					"link": "resources/documents/TC4_TP5-%20GLPI%20_LAMMARI_Rayane__JEAN-PIERRE_Matthieu___V04.pdf"
+					
+				},
+				{
 					"name": "VMware",
 					"logo": "resources/svgs/skills/vmware.svg",
 					"link": "https://www.vmware.com/fr.html"
